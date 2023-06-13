@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("teste3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url("Logotipo2.png");
+  color: #f6e423;
+  padding: 150px;
+  position: relative;
+}
+
+header h3 {
+  position: absolute;
+  bottom: 1000px;
+  right: 1000px;
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  background-color: #000000;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#car-gallery {
+  display: flex;
+  overflow-x: auto;
+  border-radius: 30px;
+}
+
+.car-card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.car-card:last-child {
+  margin-right: 0;
+}
+
+
+.rent-button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 30px;
+}
+div.abas nav a {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid;
+
+}
+div.abas div{
+  background: white;
+  padding: 10px;
+  display: none;
+
+}
+div.abas div :target{
+  display: block ;
+}
+
+.abas a {
+  display: inline-block;
+  margin: 0 100px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.abas a:hover {
+  background-color: #555;
+}
+
